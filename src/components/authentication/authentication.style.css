@@ -1,0 +1,34 @@
+.auth {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.auth-page {
+  background: whitesmoke;
+  margin: 1rem auto;
+}
+
+.user {
+  width: 40%;
+}
+
+.btn {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding: 0.1rem 2.2rem;
+  border-radius: 5px;
+  border: 1px solid silver;
+  outline: lightgrey;
+  cursor: pointer;
+  transition: all 1.5s ease;
+}
+
+.btn:hover {
+  transform: translateY(1rem);
+}
+
+@media only screen and (max-width: 800px) {
+  .user {
+    width: 100%;
+  }
+}

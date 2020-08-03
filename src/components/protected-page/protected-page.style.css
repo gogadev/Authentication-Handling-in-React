@@ -1,0 +1,31 @@
+.protected-page {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 0.5rem;
+  background: rgba(243, 243, 243, 0.952);
+  text-align: center;
+}
+
+.protected {
+  width: 100vw;
+}
+
+.welcome {
+  font-size: 2.5rem;
+  letter-spacing: 5px;
+  color: grey;
+  padding: 0.2rem;
+  font-weight: 100;
+  border-bottom: 1px dotted silver;
+}
+
+.approved-img {
+  width: 20%;
+}
+
+@media only screen and (max-width: 800px) {
+  .approved-img {
+    width: 50%;
+  }
+}
